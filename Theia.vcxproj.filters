@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{b3c8d354-aacb-446f-88be-0df4b80e5507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Integrator">
+      <UniqueIdentifier>{c41af9f7-0ec5-4603-97ce-b4d6ca68a396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{a840e1f3-994a-4039-ad91-6a0d7f6548ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{7ee80809-39a1-4b5c-8162-900b97fe7b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector3">
+      <UniqueIdentifier>{ab14d68a-f578-406d-8906-d4b51f7fa8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Ray">
+      <UniqueIdentifier>{b90fb7e4-5c4f-4f57-9219-575965e307d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Point3">
+      <UniqueIdentifier>{9808df83-02a2-4e79-b9fd-f2855ba44168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector2">
+      <UniqueIdentifier>{a8596dd7-ff12-4e81-b1d1-b98857974572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Point2">
+      <UniqueIdentifier>{93ad26dc-5090-4fa4-acab-52c9eb649b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\RayDifferential">
+      <UniqueIdentifier>{613b76b6-862d-48cc-8896-ffa23bb127b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\AABB2">
+      <UniqueIdentifier>{43b86231-633e-413d-9aee-57e01eae2319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\AABB3">
+      <UniqueIdentifier>{c55c5c66-baf7-4953-b0fd-64c127debae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\SquareMatrix">
+      <UniqueIdentifier>{15429008-3cc4-4233-a98a-29b5f3ed0afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Transform">
+      <UniqueIdentifier>{711b7da9-10d4-418e-b43e-6eb2c9c5abf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Normal3">
+      <UniqueIdentifier>{e4b952da-c555-499d-971b-b18a12ae1991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Shape">
+      <UniqueIdentifier>{16f43945-3633-4553-9ca7-7160609dd562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Medium">
+      <UniqueIdentifier>{629a083a-0025-4903-b4eb-e019ab64c183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Interaction">
+      <UniqueIdentifier>{08294e04-864e-4973-96db-799fc399ab5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\VectorFrame">
+      <UniqueIdentifier>{c107273d-07e6-482f-9377-7c72d1e1eb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Interval">
+      <UniqueIdentifier>{fbcdee98-1b78-4ab1-8109-b7a3633151ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radiometry">
+      <UniqueIdentifier>{e1c40d66-5e04-4f42-b10c-b88068bd2b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radiometry\Spectrum">
+      <UniqueIdentifier>{1a5d7f9a-0d8d-45d0-9f16-61357a2ec49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radiometry\Spectrum\ConstantSpectrum">
+      <UniqueIdentifier>{8851a9a1-eeda-4d11-b41e-7b089baed78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radiometry\Spectrum\DenselySampledSpectrum">
+      <UniqueIdentifier>{fd92f1e6-d494-46d3-9906-58800338f545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Radiometry\Spectrum\PiecewiseSpectrum">
+      <UniqueIdentifier>{c7a7727e-2a60-42f1-8e6a-fad947f1b365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{91e82677-ab12-470e-a461-ce277a34b8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{6acd4016-32a0-4281-83e7-91ef9d717654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\gtest">
+      <UniqueIdentifier>{aa2339b1-2de4-4914-8f92-dca924b389ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\SphericalGeometry">
+      <UniqueIdentifier>{c65a0993-6443-4b5f-bc45-7c934bc65740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\pcg">
+      <UniqueIdentifier>{b47cfbc8-9a37-4264-984d-0dbcb03b61cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\RandomNumberGenerator">
+      <UniqueIdentifier>{9840d5f5-9360-4beb-a898-8d9abc5805eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Camera">
+      <UniqueIdentifier>{b46878c9-0f96-4920-b7a3-fae778c5080c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\RayDifferential.cpp">
+      <Filter>Math\RayDifferential</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Ray.cpp">
+      <Filter>Math\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Interval.cpp">
+      <Filter>Math\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\math_test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\gtest\gtest_main.cc">
+      <Filter>ext\gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\gtest\gtest-all.cc">
+      <Filter>ext\gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\pcg\pcg_basic.c">
+      <Filter>ext\pcg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Render\IIntegrator.h">
+      <Filter>Render\Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ICamera.h">
+      <Filter>Render\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Math\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ray.h">
+      <Filter>Math\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Point3.h">
+      <Filter>Math\Point3</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Math\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Point2.h">
+      <Filter>Math\Point2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RayDifferential.h">
+      <Filter>Math\RayDifferential</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2.h">
+      <Filter>Math\AABB2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.h">
+      <Filter>Math\AABB3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SquareMatrix.h">
+      <Filter>Math\SquareMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Transform.h">
+      <Filter>Math\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal3.h">
+      <Filter>Math\Normal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Shape.h">
+      <Filter>Math\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IMedium.h">
+      <Filter>Math\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IInteraction.h">
+      <Filter>Engine\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Interval.h">
+      <Filter>Math\Interval</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\VectorFrame.h">
+      <Filter>Math\VectorFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Radiometry\ISpectrum.h">
+      <Filter>Radiometry\Spectrum</Filter>
+    </ClInclude>
+    <ClInclude Include="Radiometry\ConstantSpectrum.h">
+      <Filter>Radiometry\Spectrum\ConstantSpectrum</Filter>
+    </ClInclude>
+    <ClInclude Include="Radiometry\DenselySampledSpectrum.h">
+      <Filter>Radiometry\Spectrum\DenselySampledSpectrum</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\gtest\gtest.h">
+      <Filter>ext\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SphericalGeometry.h">
+      <Filter>Math\SphericalGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RandomNumberGenerator.h">
+      <Filter>Math\RandomNumberGenerator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
